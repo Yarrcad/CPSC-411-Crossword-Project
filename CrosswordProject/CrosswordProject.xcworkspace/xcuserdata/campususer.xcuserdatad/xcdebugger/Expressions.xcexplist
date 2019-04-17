@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "GLOBAL">
+         <PersistentStrings>
+            <PersistentString
+               value = "collectionView">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.viewDidAppear(_:):ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.resss():ViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.loadView():ViewController.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

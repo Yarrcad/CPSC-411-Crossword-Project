@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26F636EA4713B74D9550AD90 /* Pods_CrosswordProjectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDBF7BFCB6C5CC9B27BB4C51 /* Pods_CrosswordProjectUITests.framework */; };
+		6308A8F9225EF1B000209851 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308A8F8225EF1B000209851 /* AppDelegate.swift */; };
+		6308A8FB225EF1B000209851 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308A8FA225EF1B000209851 /* ViewController.swift */; };
+		6308A8FE225EF1B000209851 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6308A8FC225EF1B000209851 /* Main.storyboard */; };
+		6308A900225EF1B500209851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6308A8FF225EF1B500209851 /* Assets.xcassets */; };
+		6308A903225EF1B500209851 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6308A901225EF1B500209851 /* LaunchScreen.storyboard */; };
+		6308A90E225EF1B600209851 /* CrosswordProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308A90D225EF1B600209851 /* CrosswordProjectTests.swift */; };
+		6308A919225EF1B600209851 /* CrosswordProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308A918225EF1B600209851 /* CrosswordProjectUITests.swift */; };
+		6308A929225EF48900209851 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6308A928225EF48900209851 /* Cell.swift */; };
+		63872E592266BA4E0016B457 /* bensound-ukulele.wav in Resources */ = {isa = PBXBuildFile; fileRef = 63872E582266BA4D0016B457 /* bensound-ukulele.wav */; };
+		8872C4E10712A9E5C5FE2C55 /* Pods_CrosswordProjectTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70238D446BBE1469261D72C0 /* Pods_CrosswordProjectTests.framework */; };
+		BA0F98D1805FE07648D377EA /* Pods_CrosswordProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B219BAC2BC145236F455B83 /* Pods_CrosswordProject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6308A90A225EF1B600209851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6308A8ED225EF1B000209851 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6308A8F4225EF1B000209851;
+			remoteInfo = CrosswordProject;
+		};
+		6308A915225EF1B600209851 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6308A8ED225EF1B000209851 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6308A8F4225EF1B000209851;
+			remoteInfo = CrosswordProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22F3D429633D7D0BE2CD5B67 /* Pods-CrosswordProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrosswordProject.release.xcconfig"; path = "Target Support Files/Pods-CrosswordProject/Pods-CrosswordProject.release.xcconfig"; sourceTree = "<group>"; };
+		23F70FB6AC77D61FD597C09F /* Pods-CrosswordProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrosswordProjectUITests.release.xcconfig"; path = "Target Support Files/Pods-CrosswordProjectUITests/Pods-CrosswordProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		404104C481536AE2A7580A4E /* Pods-CrosswordProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrosswordProjectTests.release.xcconfig"; path = "Target Support Files/Pods-CrosswordProjectTests/Pods-CrosswordProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		5B219BAC2BC145236F455B83 /* Pods_CrosswordProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrosswordProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6308A8F5225EF1B000209851 /* CrosswordProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrosswordProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6308A8F8225EF1B000209851 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6308A8FA225EF1B000209851 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6308A8FD225EF1B000209851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6308A8FF225EF1B500209851 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6308A902225EF1B500209851 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6308A904225EF1B500209851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6308A909225EF1B600209851 /* CrosswordProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrosswordProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6308A90D225EF1B600209851 /* CrosswordProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordProjectTests.swift; sourceTree = "<group>"; };
+		6308A90F225EF1B600209851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6308A914225EF1B600209851 /* CrosswordProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrosswordProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6308A918225EF1B600209851 /* CrosswordProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordProjectUITests.swift; sourceTree = "<group>"; };
+		6308A91A225EF1B600209851 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6308A928225EF48900209851 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		63872E582266BA4D0016B457 /* bensound-ukulele.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "bensound-ukulele.wav"; sourceTree = SOURCE_ROOT; };
+		6977A8C8B9712B28FC0E29DF /* Pods-CrosswordProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrosswordProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-CrosswordProjectTests/Pods-CrosswordProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		70238D446BBE1469261D72C0 /* Pods_CrosswordProjectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrosswordProjectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3784FA306F676BFFC3047FD /* Pods-CrosswordProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrosswordProject.debug.xcconfig"; path = "Target Support Files/Pods-CrosswordProject/Pods-CrosswordProject.debug.xcconfig"; sourceTree = "<group>"; };
+		F5079C66B7A9829A7F632121 /* Pods-CrosswordProjectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrosswordProjectUITests.debug.xcconfig"; path = "Target Support Files/Pods-CrosswordProjectUITests/Pods-CrosswordProjectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FDBF7BFCB6C5CC9B27BB4C51 /* Pods_CrosswordProjectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrosswordProjectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6308A8F2225EF1B000209851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA0F98D1805FE07648D377EA /* Pods_CrosswordProject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6308A906225EF1B600209851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8872C4E10712A9E5C5FE2C55 /* Pods_CrosswordProjectTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6308A911225EF1B600209851 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26F636EA4713B74D9550AD90 /* Pods_CrosswordProjectUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		396E9AC074FFD30C5D054687 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3784FA306F676BFFC3047FD /* Pods-CrosswordProject.debug.xcconfig */,
+				22F3D429633D7D0BE2CD5B67 /* Pods-CrosswordProject.release.xcconfig */,
+				6977A8C8B9712B28FC0E29DF /* Pods-CrosswordProjectTests.debug.xcconfig */,
+				404104C481536AE2A7580A4E /* Pods-CrosswordProjectTests.release.xcconfig */,
+				F5079C66B7A9829A7F632121 /* Pods-CrosswordProjectUITests.debug.xcconfig */,
+				23F70FB6AC77D61FD597C09F /* Pods-CrosswordProjectUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6308A8EC225EF1B000209851 = {
+			isa = PBXGroup;
+			children = (
+				6308A8F7225EF1B000209851 /* CrosswordProject */,
+				6308A90C225EF1B600209851 /* CrosswordProjectTests */,
+				6308A917225EF1B600209851 /* CrosswordProjectUITests */,
+				6308A8F6225EF1B000209851 /* Products */,
+				396E9AC074FFD30C5D054687 /* Pods */,
+				85982517005C3BEAA0B912EF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6308A8F6225EF1B000209851 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6308A8F5225EF1B000209851 /* CrosswordProject.app */,
+				6308A909225EF1B600209851 /* CrosswordProjectTests.xctest */,
+				6308A914225EF1B600209851 /* CrosswordProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6308A8F7225EF1B000209851 /* CrosswordProject */ = {
+			isa = PBXGroup;
+			children = (
+				6308A8F8225EF1B000209851 /* AppDelegate.swift */,
+				6308A8FA225EF1B000209851 /* ViewController.swift */,
+				6308A8FC225EF1B000209851 /* Main.storyboard */,
+				6308A8FF225EF1B500209851 /* Assets.xcassets */,
+				63872E582266BA4D0016B457 /* bensound-ukulele.wav */,
+				6308A901225EF1B500209851 /* LaunchScreen.storyboard */,
+				6308A904225EF1B500209851 /* Info.plist */,
+				6308A928225EF48900209851 /* Cell.swift */,
+			);
+			path = CrosswordProject;
+			sourceTree = "<group>";
+		};
+		6308A90C225EF1B600209851 /* CrosswordProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				6308A90D225EF1B600209851 /* CrosswordProjectTests.swift */,
+				6308A90F225EF1B600209851 /* Info.plist */,
+			);
+			path = CrosswordProjectTests;
+			sourceTree = "<group>";
+		};
+		6308A917225EF1B600209851 /* CrosswordProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6308A918225EF1B600209851 /* CrosswordProjectUITests.swift */,
+				6308A91A225EF1B600209851 /* Info.plist */,
+			);
+			path = CrosswordProjectUITests;
+			sourceTree = "<group>";
+		};
+		85982517005C3BEAA0B912EF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B219BAC2BC145236F455B83 /* Pods_CrosswordProject.framework */,
+				70238D446BBE1469261D72C0 /* Pods_CrosswordProjectTests.framework */,
+				FDBF7BFCB6C5CC9B27BB4C51 /* Pods_CrosswordProjectUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6308A8F4225EF1B000209851 /* CrosswordProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6308A91D225EF1B600209851 /* Build configuration list for PBXNativeTarget "CrosswordProject" */;
+			buildPhases = (
+				FB76AA1031972692796A4053 /* [CP] Check Pods Manifest.lock */,
+				6308A8F1225EF1B000209851 /* Sources */,
+				6308A8F2225EF1B000209851 /* Frameworks */,
+				6308A8F3225EF1B000209851 /* Resources */,
+				FC9DE521BCD29E3D8303C287 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrosswordProject;
+			productName = CrosswordProject;
+			productReference = 6308A8F5225EF1B000209851 /* CrosswordProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6308A908225EF1B600209851 /* CrosswordProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6308A920225EF1B600209851 /* Build configuration list for PBXNativeTarget "CrosswordProjectTests" */;
+			buildPhases = (
+				23E527EFFBE7BCFF53611CE7 /* [CP] Check Pods Manifest.lock */,
+				6308A905225EF1B600209851 /* Sources */,
+				6308A906225EF1B600209851 /* Frameworks */,
+				6308A907225EF1B600209851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6308A90B225EF1B600209851 /* PBXTargetDependency */,
+			);
+			name = CrosswordProjectTests;
+			productName = CrosswordProjectTests;
+			productReference = 6308A909225EF1B600209851 /* CrosswordProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6308A913225EF1B600209851 /* CrosswordProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6308A923225EF1B600209851 /* Build configuration list for PBXNativeTarget "CrosswordProjectUITests" */;
+			buildPhases = (
+				8AEF2A1D03F21520D48710A3 /* [CP] Check Pods Manifest.lock */,
+				6308A910225EF1B600209851 /* Sources */,
+				6308A911225EF1B600209851 /* Frameworks */,
+				6308A912225EF1B600209851 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6308A916225EF1B600209851 /* PBXTargetDependency */,
+			);
+			name = CrosswordProjectUITests;
+			productName = CrosswordProjectUITests;
+			productReference = 6308A914225EF1B600209851 /* CrosswordProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6308A8ED225EF1B000209851 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Yarrcad;
+				TargetAttributes = {
+					6308A8F4225EF1B000209851 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					6308A908225EF1B600209851 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 6308A8F4225EF1B000209851;
+					};
+					6308A913225EF1B600209851 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 6308A8F4225EF1B000209851;
+					};
+				};
+			};
+			buildConfigurationList = 6308A8F0225EF1B000209851 /* Build configuration list for PBXProject "CrosswordProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6308A8EC225EF1B000209851;
+			productRefGroup = 6308A8F6225EF1B000209851 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6308A8F4225EF1B000209851 /* CrosswordProject */,
+				6308A908225EF1B600209851 /* CrosswordProjectTests */,
+				6308A913225EF1B600209851 /* CrosswordProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6308A8F3225EF1B000209851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6308A903225EF1B500209851 /* LaunchScreen.storyboard in Resources */,
+				6308A900225EF1B500209851 /* Assets.xcassets in Resources */,
+				63872E592266BA4E0016B457 /* bensound-ukulele.wav in Resources */,
+				6308A8FE225EF1B000209851 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6308A907225EF1B600209851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6308A912225EF1B600209851 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		23E527EFFBE7BCFF53611CE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrosswordProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AEF2A1D03F21520D48710A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrosswordProjectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB76AA1031972692796A4053 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CrosswordProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC9DE521BCD29E3D8303C287 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrosswordProject/Pods-CrosswordProject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
+				"${BUILT_PRODUCTS_DIR}/PopupDialog/PopupDialog.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PopupDialog.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrosswordProject/Pods-CrosswordProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6308A8F1225EF1B000209851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6308A8FB225EF1B000209851 /* ViewController.swift in Sources */,
+				6308A8F9225EF1B000209851 /* AppDelegate.swift in Sources */,
+				6308A929225EF48900209851 /* Cell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6308A905225EF1B600209851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6308A90E225EF1B600209851 /* CrosswordProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6308A910225EF1B600209851 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6308A919225EF1B600209851 /* CrosswordProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6308A90B225EF1B600209851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6308A8F4225EF1B000209851 /* CrosswordProject */;
+			targetProxy = 6308A90A225EF1B600209851 /* PBXContainerItemProxy */;
+		};
+		6308A916225EF1B600209851 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6308A8F4225EF1B000209851 /* CrosswordProject */;
+			targetProxy = 6308A915225EF1B600209851 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6308A8FC225EF1B000209851 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6308A8FD225EF1B000209851 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6308A901225EF1B500209851 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6308A902225EF1B500209851 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6308A91B225EF1B600209851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6308A91C225EF1B600209851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6308A91E225EF1B600209851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3784FA306F676BFFC3047FD /* Pods-CrosswordProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAC36DCL8L;
+				INFOPLIST_FILE = CrosswordProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yarrcad.CrosswordProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6308A91F225EF1B600209851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22F3D429633D7D0BE2CD5B67 /* Pods-CrosswordProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAC36DCL8L;
+				INFOPLIST_FILE = CrosswordProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yarrcad.CrosswordProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6308A921225EF1B600209851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6977A8C8B9712B28FC0E29DF /* Pods-CrosswordProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAC36DCL8L;
+				INFOPLIST_FILE = CrosswordProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yarrcad.CrosswordProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrosswordProject.app/CrosswordProject";
+			};
+			name = Debug;
+		};
+		6308A922225EF1B600209851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404104C481536AE2A7580A4E /* Pods-CrosswordProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAC36DCL8L;
+				INFOPLIST_FILE = CrosswordProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yarrcad.CrosswordProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrosswordProject.app/CrosswordProject";
+			};
+			name = Release;
+		};
+		6308A924225EF1B600209851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5079C66B7A9829A7F632121 /* Pods-CrosswordProjectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAC36DCL8L;
+				INFOPLIST_FILE = CrosswordProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yarrcad.CrosswordProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrosswordProject;
+			};
+			name = Debug;
+		};
+		6308A925225EF1B600209851 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23F70FB6AC77D61FD597C09F /* Pods-CrosswordProjectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AAC36DCL8L;
+				INFOPLIST_FILE = CrosswordProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Yarrcad.CrosswordProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CrosswordProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6308A8F0225EF1B000209851 /* Build configuration list for PBXProject "CrosswordProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6308A91B225EF1B600209851 /* Debug */,
+				6308A91C225EF1B600209851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6308A91D225EF1B600209851 /* Build configuration list for PBXNativeTarget "CrosswordProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6308A91E225EF1B600209851 /* Debug */,
+				6308A91F225EF1B600209851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6308A920225EF1B600209851 /* Build configuration list for PBXNativeTarget "CrosswordProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6308A921225EF1B600209851 /* Debug */,
+				6308A922225EF1B600209851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6308A923225EF1B600209851 /* Build configuration list for PBXNativeTarget "CrosswordProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6308A924225EF1B600209851 /* Debug */,
+				6308A925225EF1B600209851 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6308A8ED225EF1B000209851 /* Project object */;
+}
